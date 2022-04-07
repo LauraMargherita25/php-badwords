@@ -9,7 +9,10 @@
 <body>
     <?php
         $testo = 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque ipsum quisquam cupiditate delectus, eius ullam nesciunt hic molestiae fuga totam facere fugiat, distinctio modi ea, pariatur itaque molestias quis.';
+        $arrTesto = explode(" ", $testo);
     ?>
-     <p><?php echo $testo;?></p>
+    
+    <p>Questo è il testo: <?php echo $testo;?></p>
+    <p>Quante parole sono? <?php echo strlen($testo);?></p>
 </body>
 </html>
