@@ -7,6 +7,9 @@
     <title>php-badwords</title>
 </head>
 <body>
-    
+    <?php
+        $testo = 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque ipsum quisquam cupiditate delectus, eius ullam nesciunt hic molestiae fuga totam facere fugiat, distinctio modi ea, pariatur itaque molestias quis.'
+    ?>
+     
 </body>
 </html>
